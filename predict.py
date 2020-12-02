@@ -12,6 +12,7 @@ from sklearn.metrics import plot_confusion_matrix
 from sklearn.model_selection import train_test_split
 from mypackage import extract_data as Ex
 
+
 X_train, Y = Ex.extract()
 os.chdir(r'C:\Users\praop\Desktop\Research\SMART_GARBAGE\CODES')
 
